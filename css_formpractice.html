@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(57, 162, 127);
+            color: rgb(182, 182, 29);
+
+        }
+        label{
+            display: block;
+            
+        }
+        form{
+            width: 50%;
+            margin: 20px  auto;
+            padding: 10px;
+            border: 20px;
+            background-color: rgb(0, 255, 191);
+            border-radius: 40px;
+            }
+            
+        input,select,textarea,button{
+            width: 95%;
+            padding:5px ;
+            margin: 5px,0;
+            
+        }
+        button{
+            background: lightblue;
+            border: ;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        button:hover{
+            background:yellow ;
+            color: red;
+        }
+        input:focus, select:focus,textarea:focus{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Form</h1>
+
+    <form action="firstclass.html" >
+        <fieldset>
+        <label for="Name">Name</label>
+        <input type="text" placeholder="Your Name">
+
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Enter Your Email">
+
+        <label for="password">Password</label>
+        <input type="password" maxlength="8" placeholder="Enter Password">
+
+        <label for="Gender">Gender</label>
+        <select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <label for="Massage">Massage</label>
+        <textarea></textarea>
+
+        <button type="submit">submit</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
